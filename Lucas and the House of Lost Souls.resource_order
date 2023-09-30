@@ -6,6 +6,8 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Interaction","order":7,"path":"folders/Objects/Interaction.yy",},
+    {"name":"Player Stuff","order":16,"path":"folders/Objects/Player Stuff.yy",},
+    {"name":"Testing Stuff","order":15,"path":"folders/Objects/Testing Stuff.yy",},
     {"name":"Weapons","order":8,"path":"folders/Objects/Weapons.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
@@ -17,8 +19,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Testing Stuff","order":15,"path":"folders/Objects/Testing Stuff.yy",},
-    {"name":"Player Stuff","order":16,"path":"folders/Objects/Player Stuff.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"objSolidInteractable","order":3,"path":"objects/objSolidInteractable/objSolidInteractable.yy",},

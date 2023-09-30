@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.7",
-  "name": "Blank RPG",
+  "name": "Lucas and the House of Lost Souls",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
@@ -17,6 +17,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Interaction","folderPath":"folders/Objects/Interaction.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player Stuff","folderPath":"folders/Objects/Player Stuff.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Testing Stuff","folderPath":"folders/Objects/Testing Stuff.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Objects/Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
@@ -28,8 +30,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Testing Stuff","folderPath":"folders/Objects/Testing Stuff.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player Stuff","folderPath":"folders/Objects/Player Stuff.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
