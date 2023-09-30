@@ -23,6 +23,7 @@
   "ResourceOrderSettings": [
     {"name":"objSolidInteractable","order":3,"path":"objects/objSolidInteractable/objSolidInteractable.yy",},
     {"name":"sprTextbox","order":6,"path":"sprites/sprTextbox/sprTextbox.yy",},
+    {"name":"sprPlayerShadow","order":8,"path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},
     {"name":"CreateTextbox","order":2,"path":"scripts/CreateTextbox/CreateTextbox.yy",},
     {"name":"objPlayerInventory","order":2,"path":"objects/objPlayerInventory/objPlayerInventory.yy",},
     {"name":"objDummyInteractable","order":2,"path":"objects/objDummyInteractable/objDummyInteractable.yy",},
@@ -30,6 +31,7 @@
     {"name":"sprSword","order":1,"path":"sprites/sprSword/sprSword.yy",},
     {"name":"sprDummy","order":3,"path":"sprites/sprDummy/sprDummy.yy",},
     {"name":"sprRoomBackgroundHelper","order":5,"path":"sprites/sprRoomBackgroundHelper/sprRoomBackgroundHelper.yy",},
+    {"name":"objDummyInteractable2","order":4,"path":"objects/objDummyInteractable2/objDummyInteractable2.yy",},
     {"name":"sprSolid","order":2,"path":"sprites/sprSolid/sprSolid.yy",},
     {"name":"objPlayer","order":1,"path":"objects/objPlayer/objPlayer.yy",},
     {"name":"objTextboxChoice","order":4,"path":"objects/objTextboxChoice/objTextboxChoice.yy",},

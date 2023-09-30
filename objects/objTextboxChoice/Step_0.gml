@@ -15,6 +15,5 @@ if(interact) {
 }
 
 if(destroySelf) {
-	destroySelf = false;
-	alarm[0] = 1;
+	instance_destroy(self);
 }

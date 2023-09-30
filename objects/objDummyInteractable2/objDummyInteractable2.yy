@@ -1,19 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objDummyInteractable2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Stuff",
-    "path": "folders/Objects/Player Stuff.yy",
+    "name": "Interaction",
+    "path": "folders/Objects/Interaction.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objSolidInteractable",
+    "path": "objects/objSolidInteractable/objSolidInteractable.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprPlayer",
-    "path": "sprites/sprPlayer/sprPlayer.yy",
+    "name": "sprDummy",
+    "path": "sprites/sprDummy/sprDummy.yy",
   },
   "spriteMaskId": null,
   "visible": true,

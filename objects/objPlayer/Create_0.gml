@@ -9,5 +9,5 @@ isInteracting = false;
 isInInventory = false;
 isTalking = false;
 
-//camera = instance_create_layer(x, y, layer, objCamera);
+camera = instance_create_layer(x, y, layer, objCamera);
 inventory = instance_create_layer(x, y, layer, objPlayerInventory);
