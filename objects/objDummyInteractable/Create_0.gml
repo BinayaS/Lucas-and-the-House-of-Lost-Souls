@@ -8,3 +8,5 @@ function Interact() {
 		);
 	}
 }
+
+angle = 0;

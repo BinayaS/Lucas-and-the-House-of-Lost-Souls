@@ -18,7 +18,7 @@ var _displayName = currentName == "" ? "" : "["+currentName+"]"
 draw_text(_x, _y, _displayName);
 
 // Content
-draw_text_ext(_x + _nameLength,
+draw_text_ext(_x + 120,
 	_y,
 	currentContent,
 	font_get_size(fnt0) * 2,

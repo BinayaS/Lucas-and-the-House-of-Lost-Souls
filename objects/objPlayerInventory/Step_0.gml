@@ -50,5 +50,7 @@ if(_inventoryTick) {
 
 // Interact with object
 if(keyboard_check_pressed(ord("J"))) {
-	stuffList[| index].interact();
+	if(ds_list_size(stuffList) > 0) {
+		stuffList[| index].interact();
+	}
 }
