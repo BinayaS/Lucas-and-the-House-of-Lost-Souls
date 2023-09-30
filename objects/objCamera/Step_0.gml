@@ -1,0 +1,29 @@
+if(follow == noone && instance_exists(objPlayer)) {
+	follow = objPlayer;
+	x = objPlayer.x;
+	y = objPlayer.y;
+	xTo = x;
+	yTo = y;
+}
+
+// Set zoom
+zoom = lerp(zoom, zoomTarget, 0.05);
+
+// Move camera
+x += ((xTo - x)/8);
+y += ((yTo - y)/8);
+
+// Update follow target
+if(follow != noone && instance_exists(follow)) {
+	xTo = (round(follow.x / customWidth) * customWidth);
+	yTo = (round(follow.y / customHeight) * customHeight);
+}
+
+// Don't go outside the room
+//x = clamp(x, customWidth/2, room_width-(customWidth/2));
+//y = clamp(y, customHeight/2, room_height-(customHeight/2));
+
+// Camera step
+camera_set_view_size(camera, customWidth * zoom, customHeight * zoom);
+var vm = matrix_build_lookat(x, y, -10, x, y, 0, 0, 1, 0);
+camera_set_view_mat(camera, vm);
