@@ -21,6 +21,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sprTemp","order":9,"path":"sprites/sprTemp/sprTemp.yy",},
     {"name":"objSolidInteractable","order":3,"path":"objects/objSolidInteractable/objSolidInteractable.yy",},
     {"name":"sprTextbox","order":6,"path":"sprites/sprTextbox/sprTextbox.yy",},
     {"name":"sprPlayerShadow","order":8,"path":"sprites/sprPlayerShadow/sprPlayerShadow.yy",},
@@ -29,6 +30,7 @@
     {"name":"objDummyInteractable","order":2,"path":"objects/objDummyInteractable/objDummyInteractable.yy",},
     {"name":"objWeapon","order":1,"path":"objects/objWeapon/objWeapon.yy",},
     {"name":"sprSword","order":1,"path":"sprites/sprSword/sprSword.yy",},
+    {"name":"objLoop","order":17,"path":"objects/objLoop/objLoop.yy",},
     {"name":"sprDummy","order":3,"path":"sprites/sprDummy/sprDummy.yy",},
     {"name":"sprRoomBackgroundHelper","order":5,"path":"sprites/sprRoomBackgroundHelper/sprRoomBackgroundHelper.yy",},
     {"name":"objDummyInteractable2","order":4,"path":"objects/objDummyInteractable2/objDummyInteractable2.yy",},

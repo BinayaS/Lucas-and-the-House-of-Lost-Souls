@@ -39,6 +39,7 @@
   },
   "resources": [
     {"id":{"name":"seq0","path":"sequences/seq0/seq0.yy",},},
+    {"id":{"name":"sprTemp","path":"sprites/sprTemp/sprTemp.yy",},},
     {"id":{"name":"objSolidInteractable","path":"objects/objSolidInteractable/objSolidInteractable.yy",},},
     {"id":{"name":"objDummySequenceInit","path":"objects/objDummySequenceInit/objDummySequenceInit.yy",},},
     {"id":{"name":"sprTextbox","path":"sprites/sprTextbox/sprTextbox.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"path0","path":"paths/path0/path0.yy",},},
     {"id":{"name":"objWeapon","path":"objects/objWeapon/objWeapon.yy",},},
     {"id":{"name":"sprSword","path":"sprites/sprSword/sprSword.yy",},},
+    {"id":{"name":"objLoop","path":"objects/objLoop/objLoop.yy",},},
     {"id":{"name":"objSword","path":"objects/objSword/objSword.yy",},},
     {"id":{"name":"sprDummy","path":"sprites/sprDummy/sprDummy.yy",},},
     {"id":{"name":"objInteractable","path":"objects/objInteractable/objInteractable.yy",},},

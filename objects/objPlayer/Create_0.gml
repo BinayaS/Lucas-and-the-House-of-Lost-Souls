@@ -2,7 +2,7 @@ hspd = 0;
 vspd = 0;
 horizontal = 0;
 vertical = 0;
-walkSpd = 1.5;
+walkSpd = 3;
 dir = 0;
 
 isInteracting = false;

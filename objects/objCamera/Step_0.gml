@@ -10,8 +10,8 @@ if(follow == noone && instance_exists(objPlayer)) {
 zoom = lerp(zoom, zoomTarget, 0.05);
 
 // Move camera
-x += ((xTo - x)/8);
-y += ((yTo - y)/8);
+x += ((xTo - x)/1);
+y += ((yTo - y)/1);
 
 // Update follow target
 if(follow != noone && instance_exists(follow)) {
