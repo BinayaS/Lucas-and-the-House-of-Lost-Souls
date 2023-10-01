@@ -3,10 +3,13 @@ objPlayer.isTalking = true;
 arrowImageIndex = 0;
 timer = 0;
 destroySelf = false;
+finishedTyping = false;
 
 currentName = "";
 currentContent = "";
 currentContentIndex = 0;
+displayContent = "";
+displayContentIndex = 0;
 
 function updateText() {
 	currentName = nameList[currentContentIndex];

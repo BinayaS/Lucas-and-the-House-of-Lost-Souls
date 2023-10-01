@@ -1,11 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objHouseKey",
+  "name": "objLoopDoorLocked",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +12,8 @@
     "path": "folders/Objects/Interaction.yy",
   },
   "parentObjectId": {
-    "name": "objSolidInteractable",
-    "path": "objects/objSolidInteractable/objSolidInteractable.yy",
+    "name": "objInteractable",
+    "path": "objects/objInteractable/objInteractable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,9 +31,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSparkle",
-    "path": "sprites/sprSparkle/sprSparkle.yy",
+    "name": "sprTemp",
+    "path": "sprites/sprTemp/sprTemp.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

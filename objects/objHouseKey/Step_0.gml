@@ -1,1 +1,1 @@
-image_angle += 2;
+angle += 2;

@@ -1,3 +1,5 @@
+angle = 0;
+
 function Interact() {
 	CreateTextboxSimple(["Found a key"]);
 	

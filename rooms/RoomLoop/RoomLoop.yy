@@ -36,6 +36,7 @@
     {"name":"inst_3212653E","path":"rooms/RoomLoop/RoomLoop.yy",},
     {"name":"inst_2BF58333","path":"rooms/RoomLoop/RoomLoop.yy",},
     {"name":"inst_3EF94547","path":"rooms/RoomLoop/RoomLoop.yy",},
+    {"name":"inst_77B2FAD4","path":"rooms/RoomLoop/RoomLoop.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -76,6 +77,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3EF94547","colour":4278190335,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objHideBlockSolid","path":"objects/objHideBlockSolid/objHideBlockSolid.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objHideBlockSolid","path":"objects/objHideBlockSolid/objHideBlockSolid.yy",},"propertyId":{"name":"loopDestroy","path":"objects/objHideBlockSolid/objHideBlockSolid.yy",},"value":"2",},
           ],"rotation":0.0,"scaleX":14.0,"scaleY":0.25,"x":960.0,"y":1180.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77B2FAD4","colour":1862210821,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objLoopDoorLocked","path":"objects/objLoopDoorLocked/objLoopDoorLocked.yy",},"properties":[],"rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":480.0,"y":1771.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":57,"SerialiseWidth":75,"TileCompressedData":[
 -54,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-63,60,-12,61,-68,60,-2,61,-68,60,-5,1,-2,61,-5,1,-63,60,-5,1,-2,61,-5,1,-63,60,-12,61,-63,60,-12,
