@@ -6,19 +6,26 @@ timerMax = 6;
 vertical = 0;
 lastVertical = 0;
 
+// Flags
+flagHouseKey = false;
+
+function _interactDefault() {
+	show_message("ERROR: no inventory object interaction set")
+}
+
+function item(_name, _obj = objEmpty, _interact = _interactDefault) constructor {
+	name = _name;
+	obj = _obj;
+	interact = _interact;
+}
+
+function addItem(_name, _obj, _interaction) {
+	ds_list_add(stuffList, new item(_name, _obj, _interaction));
+}
+
 // test inventory
 {
 	/*
-	function _interactDefault() {
-		show_message("ERROR: no inventory object interaction set")
-	}
-
-	function item(_name, _obj = objEmpty, _interact = _interactDefault) constructor {
-		name = _name;
-		obj = _obj;
-		interact = _interact;
-	}
-
 	// Dummy list
 	function _itemasdf() {
 		// Toggle inventory

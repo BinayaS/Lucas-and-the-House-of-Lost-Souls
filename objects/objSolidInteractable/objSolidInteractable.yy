@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Interaction",
-    "path": "folders/Objects/Interaction.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Interaction/Parents.yy",
   },
   "parentObjectId": {
     "name": "objSolid",

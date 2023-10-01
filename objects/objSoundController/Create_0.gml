@@ -1,0 +1,1 @@
+rain = audio_play_sound(Looped___Rain__Thunder__Residential_Neighborhood__Splashing_Concrete__Singapore, 1, 1);

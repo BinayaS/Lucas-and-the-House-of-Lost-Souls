@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Interaction",
-    "path": "folders/Objects/Interaction.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Interaction/Parents.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprPlayer",
-    "path": "sprites/sprPlayer/sprPlayer.yy",
+    "name": "sprPlayerInteractionBox",
+    "path": "sprites/sprPlayerInteractionBox/sprPlayerInteractionBox.yy",
   },
   "spriteMaskId": null,
   "visible": false,
