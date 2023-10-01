@@ -1,7 +1,7 @@
 angle = 0;
 
 function Interact() {
-	CreateTextboxSimple(["Found a key"]);
+	CreateTextboxSimple(["Picked up a key"]);
 	
 	objPlayerInventory.flagHouseKey = true;
 	
@@ -14,6 +14,8 @@ function Interact() {
 			CreateTextboxSimple(["Just a normal key"]);
 		}
 	);
+	
+	objSoundController.playPickupItemSound();
 	
 	instance_destroy(self);
 }

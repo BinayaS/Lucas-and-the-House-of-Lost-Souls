@@ -1,18 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objTextInteraction",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player Stuff",
-    "path": "folders/Objects/Player Stuff.yy",
+    "name": "Interaction",
+    "path": "folders/Objects/Interaction.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objInteractable",
+    "path": "objects/objInteractable/objInteractable.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,12 +28,14 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"text","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"\"","varType":2,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "sprPlayerForward",
-    "path": "sprites/sprPlayerForward/sprPlayerForward.yy",
+    "name": "sprTempText",
+    "path": "sprites/sprTempText/sprTempText.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

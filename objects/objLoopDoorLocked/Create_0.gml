@@ -1,3 +1,3 @@
 function Interact() {
-	CreateTextboxSimple(["The door locked behind me"]);
+	CreateTextboxSimple(["The door's locked"]);
 }

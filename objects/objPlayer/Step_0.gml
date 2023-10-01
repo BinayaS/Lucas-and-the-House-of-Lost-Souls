@@ -1,19 +1,27 @@
 if(isInInventory || isTalking) {
+	image_speed = 0;
+	image_index = 0;
 	return;
 }
 
 horizontal = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vertical = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if(horizontal > 0) {
+	sprite_index = sprPlayerForward;
+} else if(horizontal < 0) {
+	sprite_index = sprPlayer;
+}
+
 hspd = walkSpd;
 vspd = walkSpd;
 
-//if(horizontal != 0 && vertical != 0) {
-//	hspd = 0;
-//}
-
 if(horizontal != 0 || vertical != 0) {
 	dir = point_direction(0, 0, horizontal*hspd, vertical*vspd);
+	image_speed = 1;
+} else {
+	image_speed = 0;
+	image_index = 0;
 }
 
 // If we are walking in a diagonal then we need to normalize
