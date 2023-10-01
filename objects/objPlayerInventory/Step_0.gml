@@ -2,8 +2,10 @@
 var _inventory = keyboard_check_pressed(ord("I"));
 
 if(_inventory && !instance_exists(objTextbox) && !instance_exists(objTextboxChoice)) {
-	objPlayer.isInInventory = !objPlayer.isInInventory;
-	isHidden = !isHidden;
+	if(instance_exists(objPlayer)) {
+		objPlayer.isInInventory = !objPlayer.isInInventory;
+		isHidden = !isHidden;
+	}
 }
 
 if(isHidden) {

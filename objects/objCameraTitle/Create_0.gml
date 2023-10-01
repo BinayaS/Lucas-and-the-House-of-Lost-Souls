@@ -24,5 +24,3 @@ camera_set_view_mat(camera, vm);
 camera_set_proj_mat(camera, pm);
 
 window_set_size(customWidth * 2, customHeight * 2);
-
-audio_play_sound(Retro_Action_Loop__1, 0, 1, 0.75);

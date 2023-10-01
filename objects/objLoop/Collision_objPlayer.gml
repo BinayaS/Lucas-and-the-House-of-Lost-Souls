@@ -12,3 +12,21 @@ if(global.loopCounter != internalLoopCounter) {
 	instance_create_layer(0, 0, layer, objX);
 }
 
+// One time call for next loop
+switch(global.loopCounter) {	
+	// Left room
+	case 1:
+		objHideBlockLock.isLocked = true;
+	break;
+	
+	// Bottom room
+	case 2:
+		objHideBlockLock.isLocked = true;
+	break;
+	
+	case 3:
+	break;
+	
+	default:
+	break;
+}

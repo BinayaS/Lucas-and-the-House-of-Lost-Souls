@@ -11,6 +11,8 @@ isInteracting = false;
 isInInventory = false;
 isTalking = false;
 
+camera = noone;
+
 if(instance_exists(objCamera)) {
 	camera = instance_find(objCamera, 0)
 } else {
