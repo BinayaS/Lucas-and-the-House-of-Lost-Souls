@@ -8,7 +8,7 @@ if(_inventory && !instance_exists(objTextbox) && !instance_exists(objTextboxChoi
 	}
 }
 
-if(isHidden) {
+if(isHidden || objPlayer.isFinalScene) {
 	return;
 }
 

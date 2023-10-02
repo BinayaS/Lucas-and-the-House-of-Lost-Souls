@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Interaction",
+    "path": "folders/Objects/Interaction.yy",
   },
   "parentObjectId": {
     "name": "objInteractable",

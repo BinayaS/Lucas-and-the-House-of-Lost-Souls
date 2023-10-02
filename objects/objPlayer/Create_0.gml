@@ -10,6 +10,7 @@ dir = 0;
 isInteracting = false;
 isInInventory = false;
 isTalking = false;
+isFinalScene = false;
 
 camera = noone;
 

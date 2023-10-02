@@ -14,6 +14,7 @@ if(isInDark) {
 	with(objLightCircle) {
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(sprite_index, image_index, x + _xoffset, y + _yoffset, image_xscale, image_yscale, image_angle, c_white, image_alpha);
+
 		gpu_set_blendmode(bm_normal);
 	}
 	
@@ -23,11 +24,18 @@ if(isInDark) {
 	with(objLightCircle) {
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(sprite_index, image_index, x + _xoffset, y + _yoffset, image_xscale, image_yscale, image_angle, c_white, 1-objLightning.image_alpha);
+		
 		gpu_set_blendmode(bm_normal);
 	}
 }
 
+with(objGhost) {
+	draw_sprite_ext(sprite_index, image_index, x + _xoffset, y + _yoffset, image_xscale, image_yscale, image_angle, c_white, image_alpha);
+}
 
+with(objFinalWhiteLight) {
+	draw_sprite_ext(sprite_index, image_index, x + _xoffset, y + _yoffset, image_xscale, image_yscale, image_angle, c_white, image_alpha);
+}
 	
 // End of Draw stuff
 surface_reset_target();

@@ -1,3 +1,5 @@
+event_inherited();
+
 angle = 0;
 
 function Interact() {

@@ -1,4 +1,5 @@
 stuffList = ds_list_create();
+stuffListNames = ds_list_create();
 isHidden = true;
 index = 0;
 timer = 0;
@@ -10,6 +11,9 @@ lastVertical = 0;
 flagHouseKey = false;
 flagLookedThroughHole = false;
 flagRedOrb = false;
+flagBlueOrb = false;
+flagPurpleOrb = false;
+flagNumberFlippedCrosses = 0;
 
 function _interactDefault() {
 	show_message("ERROR: no inventory object interaction set")
@@ -23,6 +27,16 @@ function item(_name, _obj = objEmpty, _interact = _interactDefault) constructor 
 
 function addItem(_name, _obj, _interaction) {
 	ds_list_add(stuffList, new item(_name, _obj, _interaction));
+	ds_list_add(stuffListNames, _name);
+}
+
+function removeItem(_name) {
+	var _searchIndex = ds_list_find_index(stuffListNames, _name);
+	if(_searchIndex != -1) {
+		ds_list_delete(stuffList, _searchIndex);
+		ds_list_delete(stuffListNames, _searchIndex);
+		index = 0;
+	}
 }
 
 // test inventory

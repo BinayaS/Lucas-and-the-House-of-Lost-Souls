@@ -2,14 +2,13 @@ angle = 0;
 loopShow = 2;
 
 function Interact() {
-	if(global.loopCounter != loopShow) {
+	if(!forceShow && global.loopCounter != loopShow) {
 		return;
 	}
 	
 	CreateTextboxSimple(["Picked up a glowing red orb"]);
 	
 	objPlayerInventory.flagRedOrb = true;
-	objHideBlockLock.isLocked = false;
 	
 	objPlayerInventory.addItem(
 		"Red orb", 

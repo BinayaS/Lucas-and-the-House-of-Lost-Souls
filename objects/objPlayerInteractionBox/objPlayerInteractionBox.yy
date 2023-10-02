@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/Interaction/Parents.yy",
+    "name": "Player Stuff",
+    "path": "folders/Objects/Player Stuff.yy",
   },
   "parentObjectId": null,
   "persistent": false,

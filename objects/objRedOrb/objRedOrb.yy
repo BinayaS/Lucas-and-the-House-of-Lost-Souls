@@ -10,12 +10,12 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Interaction",
-    "path": "folders/Objects/Interaction.yy",
+    "name": "Orbs",
+    "path": "folders/Objects/Interaction/Orbs.yy",
   },
   "parentObjectId": {
-    "name": "objInteractable",
-    "path": "objects/objInteractable/objInteractable.yy",
+    "name": "objSolidInteractable",
+    "path": "objects/objSolidInteractable/objSolidInteractable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,7 +30,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"forceShow","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "sprSparkle",
