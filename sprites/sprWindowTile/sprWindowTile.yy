@@ -15,6 +15,7 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45fb57b4-e258-4fc2-bd02-bee30b31cad2",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71496bad-c9d2-49d8-b26d-2d3daa5293b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90240493-4310-40f7-98ac-089bbe82a7ff",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -44,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 2.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,6 +58,7 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"45fb57b4-e258-4fc2-bd02-bee30b31cad2","path":"sprites/sprWindowTile/sprWindowTile.yy",},},},"Disabled":false,"id":"f542bf2b-f63b-4b2e-9e32-1cb19315bb3c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"71496bad-c9d2-49d8-b26d-2d3daa5293b1","path":"sprites/sprWindowTile/sprWindowTile.yy",},},},"Disabled":false,"id":"4f3c48a9-89af-4ebe-847d-fbaecd1b751e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"90240493-4310-40f7-98ac-089bbe82a7ff","path":"sprites/sprWindowTile/sprWindowTile.yy",},},},"Disabled":false,"id":"4f124fdc-b016-46e3-9c5a-648ddf1b6535","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

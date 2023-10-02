@@ -31,12 +31,16 @@ if(_next) {
 	currentContentIndex += 1;
 	displayContentIndex = 0;
 	
-	if(currentContentIndex >= array_length(nameList)) {
+	if(currentContentIndex >= array_length(contentList)) {
 		destroySelf = true;
 		return;
 	}
 	
-	currentName = nameList[currentContentIndex];
+	if(currentContentIndex < array_length(nameList)) {
+		currentName = nameList[currentContentIndex];
+	} else {
+		currentName = "";
+	}
 	currentContent = contentList[currentContentIndex];
 }
 

@@ -1,5 +1,6 @@
 hasInteracted = false;
 isBroken = false;
+isFinal = false;
 
 function Interact() {
 	if(!isBroken) {

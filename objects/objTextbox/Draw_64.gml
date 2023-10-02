@@ -23,4 +23,4 @@ draw_text_ext(_x + 120,
 	_y,
 	displayContent,
 	font_get_size(fnt0) * 2,
-	(_xscale * sprite_width) - (_x + _nameLength));
+	(_xscale * sprite_width) - (_x + 120));

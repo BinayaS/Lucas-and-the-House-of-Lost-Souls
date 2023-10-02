@@ -6,6 +6,7 @@ function Interact() {
 	}
 	
 	objPlayer.isFinalScene = true;
+	objWindow.isFinal = true;
 	var _wlight = instance_create_layer(x, y, layer, objFinalWhiteLight);
 	_wlight.image_xscale = 20;
 	_wlight.image_yscale = 20;

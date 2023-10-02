@@ -23,9 +23,9 @@ nameList = [
 	"BS",
 ];
 contentList = [
-	"Who goes there bitch",
+	"Who goes there",
 	"It's me, a Mario",
-	"Oh, it's just you, bitch",
+	"Oh, it's just you",
 ];
 
 updateText();
