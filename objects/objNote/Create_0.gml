@@ -6,7 +6,7 @@ function Interact() {
 	objPlayerInventory.flagNewspaperPage = true;
 	
 	objPlayerInventory.addItem(
-		"Outside newspaper", 
+		"Newspaper", 
 		objEmpty, 
 		function(){
 			objPlayer.isInInventory = !objPlayer.isInInventory;
