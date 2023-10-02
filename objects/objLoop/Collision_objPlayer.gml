@@ -13,6 +13,15 @@ switch(global.loopCounter) {
 	case 1:
 		if(objPlayerInventory.flagLookedThroughHole) {
 			global.loopCounter += 1;
+			with(objRedOrb) {
+				randomizeOrbs();
+			}
+			with(objBlueOrb) {
+				randomizeOrbs();
+			}
+			with(objPurpleOrb) {
+				randomizeOrbs();
+			}
 		}
 	break;
 	

@@ -12,8 +12,8 @@
     "path": "folders/Objects/Interaction.yy",
   },
   "parentObjectId": {
-    "name": "objInteractable",
-    "path": "objects/objInteractable/objInteractable.yy",
+    "name": "objSolidInteractable",
+    "path": "objects/objSolidInteractable/objSolidInteractable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,7 +28,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"indexNumber","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":2.0,"rangeMin":0.0,"value":"0","varType":1,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "sprCross",

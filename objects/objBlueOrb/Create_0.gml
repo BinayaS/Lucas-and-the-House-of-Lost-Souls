@@ -24,3 +24,24 @@ function Interact() {
 	
 	instance_destroy(self);
 }
+
+function randomizeOrbs() {
+	var _r = irandom_range(0, 2);
+	
+	switch(_r) {
+		case 0:
+			x = 408;
+			y = 1000;
+		break;
+		
+		case 1:
+			x = 664;
+			y = 1544;
+		break;
+		
+		case 2:
+			x = 296;
+			y = 1640;
+		break;
+	}
+}
