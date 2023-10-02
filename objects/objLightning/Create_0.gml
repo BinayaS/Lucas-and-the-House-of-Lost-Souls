@@ -10,7 +10,7 @@ if(lightningLayer != -1) {
 
 function showLightning() {
 	image_alpha = 1;
-	audio_play_sound(sndThunder, 1, 0, 1, 0, random_range(0.8, 1.1));
+	audio_play_sound(sndThunder, 1, 0, 0.8, 0, random_range(0.8, 1.1));
 	lightning = true;
 	objLightingController.isInDark = false;
 	

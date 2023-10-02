@@ -17,7 +17,7 @@
   ],
   "gridX": 4,
   "gridY": 4,
-  "height": 64,
+  "height": 128,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a780e8fb-035b-4f4b-9495-a0bb78f9504d","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
@@ -61,8 +61,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 32,
-    "yorigin": 32,
+    "xorigin": 64,
+    "yorigin": 64,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -72,5 +72,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 128,
 }

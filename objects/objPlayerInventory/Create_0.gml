@@ -8,6 +8,8 @@ lastVertical = 0;
 
 // Flags
 flagHouseKey = false;
+flagLookedThroughHole = false;
+flagRedOrb = false;
 
 function _interactDefault() {
 	show_message("ERROR: no inventory object interaction set")
