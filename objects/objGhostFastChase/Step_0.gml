@@ -1,0 +1,1 @@
+mp_linear_step(objPlayer.x, objPlayer.y, 32, false);

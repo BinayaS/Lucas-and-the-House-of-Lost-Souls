@@ -14,6 +14,7 @@ flagRedOrb = false;
 flagBlueOrb = false;
 flagPurpleOrb = false;
 flagNumberFlippedCrosses = 0;
+flagNewspaperPage = false;
 
 function _interactDefault() {
 	show_message("ERROR: no inventory object interaction set")

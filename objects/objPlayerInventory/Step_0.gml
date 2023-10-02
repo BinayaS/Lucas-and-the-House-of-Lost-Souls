@@ -2,13 +2,13 @@
 var _inventory = keyboard_check_pressed(ord("I"));
 
 if(_inventory && !instance_exists(objTextbox) && !instance_exists(objTextboxChoice)) {
-	if(instance_exists(objPlayer)) {
+	if(instance_exists(objPlayer) && !objPlayer.isPaused) {
 		objPlayer.isInInventory = !objPlayer.isInInventory;
 		isHidden = !isHidden;
 	}
 }
 
-if(isHidden || objPlayer.isFinalScene) {
+if(isHidden || (instance_exists(objPlayer) && (objPlayer.isFinalScene || objPlayer.isPaused))) {
 	return;
 }
 

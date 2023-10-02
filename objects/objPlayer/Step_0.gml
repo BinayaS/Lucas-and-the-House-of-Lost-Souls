@@ -1,4 +1,4 @@
-if(isInInventory || isTalking || isFinalScene) {
+if(isInInventory || isTalking || isFinalScene || isPaused) {
 	image_speed = 0;
 	image_index = 0;
 	

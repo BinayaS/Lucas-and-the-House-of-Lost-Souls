@@ -11,6 +11,7 @@ isInteracting = false;
 isInInventory = false;
 isTalking = false;
 isFinalScene = false;
+isPaused = false;
 
 camera = noone;
 
