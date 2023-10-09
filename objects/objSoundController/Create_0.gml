@@ -20,7 +20,7 @@ function playRainWind() {
 
 function StartIsInRain() {
 	isInRain = true;
-	var _a = call_later(global.debug ? 20 : random_range(60, 120), time_source_units_seconds, function(){
+	var _a = call_later(global.debug ? 20 : random_range(120, 240), time_source_units_seconds, function(){
 			
 		var num = irandom_range(0, 9);
 		

@@ -1,2 +1,2 @@
 global.loopCounter = 0;
-global.debug = true;
+global.debug = false;
