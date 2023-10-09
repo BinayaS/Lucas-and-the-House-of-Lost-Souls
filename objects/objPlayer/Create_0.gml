@@ -4,7 +4,7 @@ hspd = 0;
 vspd = 0;
 horizontal = 0;
 vertical = 0;
-walkSpd = 1.5;
+walkSpd = global.debug ? 5 : 1.5;
 dir = 0;
 
 isInteracting = false;

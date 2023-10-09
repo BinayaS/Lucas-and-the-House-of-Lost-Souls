@@ -1,0 +1,48 @@
+What went write:
+- Atmosphere is good
+- No complaints on art
+
+
+Problems:
+- Progresson is too confusing
+- Nothing very intresting happens when you loop
+- Failure in looping sucks
+- Instructions on controls do not exist
+- Thumbnail is not eye catching
+- Need better screenshots & gifs
+- Payoff / scare does not exist
+
+
+Puzzles are confusing
+* Add in light sources around the house so the player does not have to wander so much.
+
+Failure is frustrating
+* 
+
+Pacing is too slow
+* Need to add in more story elements and scares to the middle.
+
+Finding things in the dark is too hard
+* Add in lights sources
+
+No instructions
+* Add simple instruction asset in the first room and make it disapear once the player hits a trigger.
+
+Too much down time while walking in the house. 
+People need more feedback from the game. This is a pacing issue.
+* Add in story elements through audio or text for the player to find each loop.
+
+THERE IS NOTHING HAPPENING SO IT CAUSES CONFUSION THAT WE DO NOT WANT.
+
+[x] In game instructions
+[ ] Add more scares
+	[ ] story board scare events (this will require research) NOTE: add more scares
+	[ ] program in scare events
+[ ] more clutter
+[ ] random creepy and unsetteling sounds should play during light out
+[ ] Add more puzzles
+	[ ] research simple puzzles to add
+	[ ] puzzle where you get parts and need to combine them together in the inventory
+[ ] Create a better cover art
+[ ] Get more screenshots
+[ ] New art for the creatures

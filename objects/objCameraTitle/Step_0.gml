@@ -1,3 +1,14 @@
+if(isTitle) {
+	var _fx_struct = layer_get_fx("Effect_1");
+
+	if (_fx_struct != -1)
+	{
+	    var _params = fx_get_parameters(_fx_struct);
+	    _params.g_CellSize = max(_params.g_CellSize - 1, 1);
+	    fx_set_parameters(_fx_struct, _params);
+	}
+}
+
 if(follow == noone && instance_exists(objPlayer)) {
 	follow = objPlayer;
 	x = objPlayer.x;

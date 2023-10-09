@@ -13,6 +13,9 @@ switch(global.loopCounter) {
 	case 1:
 		if(objPlayerInventory.flagLookedThroughHole) {
 			global.loopCounter += 1;
+			
+			objInstructionsHints.Show(0);
+			
 			with(objRedOrb) {
 				randomizeOrbs();
 			}
@@ -29,6 +32,9 @@ switch(global.loopCounter) {
 	case 2:
 		if(objPlayerInventory.flagRedOrb && objPlayerInventory.flagBlueOrb && objPlayerInventory.flagPurpleOrb) {
 			global.loopCounter += 1;
+			
+			objInstructionsHints.Show(1);
+			
 			with(objCross) {
 				FlipCross();
 			}
@@ -38,6 +44,9 @@ switch(global.loopCounter) {
 	// upside down crosses
 	case 3:
 		if(objPlayerInventory.flagNumberFlippedCrosses == 3) {
+			
+			objInstructionsHints.Show(2);
+			
 			global.loopCounter += 1;
 		}
 	break;
@@ -45,16 +54,18 @@ switch(global.loopCounter) {
 	// statues
 	case 4:
 		if(objPlayerInventory.flagPurpleOrb && !objPlayerInventory.flagRedOrb && !objPlayerInventory.flagBlueOrb) {
+			
+			objInstructionsHints.Show(3);
+			
 			global.loopCounter += 1;
-			instance_create_layer(384, 1496, layer, objGhost);
-			instance_create_layer(460, 1500, layer, objGhost);
-			instance_create_layer(576, 1496, layer, objGhost);
 		}
 	break;
 	
 	// ghosts & white hand
 	case 5:
-		
+		instance_create_layer(384, 1496, layer, objGhost);
+		instance_create_layer(460, 1500, layer, objGhost);
+		instance_create_layer(576, 1496, layer, objGhost);
 	break;
 	
 	default:

@@ -1,3 +1,4 @@
+isInRain = false;
 wind = audio_play_sound(Ambient_Noise_1, 1, 1, 0.5);
 
 function playPickupItemSound() {
@@ -15,4 +16,42 @@ function playRainWind() {
 	
 	audio_sound_gain(rain, 1, 500);
 	audio_sound_gain(wind, 0.5, 500);
+}
+
+function StartIsInRain() {
+	isInRain = true;
+	var _a = call_later(global.debug ? 20 : random_range(60, 120), time_source_units_seconds, function(){
+			
+		var num = irandom_range(0, 9);
+		
+		switch(num) {
+			case 0:
+				audio_play_sound(Alien_Clicks_02, 1, 0, 0.45, 0, random_range(0.5, 1.3));
+			break;
+			
+			case 2:
+				audio_play_sound(Cutting_on_cutting_board, 1, 0, 0.8, 0, random_range(0.5, 0.8));
+			break;
+			
+			case 3:
+				audio_play_sound(Metal_Trap_Opening_5, 1, 0, 0.8, 0, random_range(0.5, 1.1));
+			break;
+			
+			case 5:
+				audio_play_sound(Percussive_Atmosphere, 1, 0, 0.25, 0, random_range(0.5, 1.1));
+			break;
+			
+			case 7:
+				audio_play_sound(Strange_Glass_Sound, 1, 0, 0.7, 0, random_range(0.5, 1));
+			break;
+			
+			case 8:
+				audio_play_sound(Atmosphere_05, 1, 0, 0.5, 0, random_range(0.5, 1));
+			break;
+			
+			default:
+				// Empty
+			break;
+		}
+	}, true);
 }
