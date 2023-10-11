@@ -1,3 +1,4 @@
+randomize();
 image_speed = 0;
 
 hspd = 0;
