@@ -19,6 +19,9 @@ function playRainWind() {
 }
 
 function StartIsInRain() {
+	if(global.isEnd) {
+		return;
+	}
 	isInRain = true;
 	var _a = call_later(global.debug ? 20 : random_range(120, 240), time_source_units_seconds, function(){
 			
@@ -53,5 +56,7 @@ function StartIsInRain() {
 				// Empty
 			break;
 		}
-	}, true);
+		
+		StartIsInRain();
+	});
 }
